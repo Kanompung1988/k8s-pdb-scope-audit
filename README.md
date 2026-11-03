@@ -1,5 +1,8 @@
 # Kubernetes PDB Scope Audit
 
+<p align="center"><img src="assets/logo-full.svg" alt="Official AREA ZERO brand logo" width="240"></p>
+<p align="center"><img src="assets/hero.svg" alt="Original k8s-pdb-scope-audit project banner" width="100%"></p>
+
 **A safer review before workload disruption.** A portable, offline Python Agent Skill for inspecting `policy/v1` PodDisruptionBudget YAML and detecting selector-wide scope, conflicting budgets (from supplied Pod samples), malformed availability fields and uncertainty.
 
 > [!NOTE]
@@ -35,3 +38,6 @@ Never calls Kubernetes or runs the manifests. It does not infer actual `disrupti
 ## Contributing and license
 
 Open an issue with a reproducible anonymized YAML fixture and expected finding; add unit tests for rule changes. CI runs Python 3.10/3.12. MIT License (see `LICENSE`). Author: AREA ZERO, 2026. Kubernetes behavior is documented at [Kubernetes upstream](https://kubernetes.io/docs/tasks/run-application/configure-pdb/); this project is not affiliated with Kubernetes.
+
+
+> Brand note: the original AREA ZERO logo is an owner-provided trademark asset and is not licensed for third-party branding under the MIT software license. The original illustrative hero SVG is part of the project documentation.
